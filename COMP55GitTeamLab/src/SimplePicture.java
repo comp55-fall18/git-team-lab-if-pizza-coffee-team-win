@@ -6,11 +6,11 @@ import acm.program.GraphicsProgram;
 public class SimplePicture extends GraphicsProgram {
 	public static int SIZE = 700;
 	
-	public void init() {
+	public void init() { // init 
 		setSize(SIZE, SIZE);
 	}
 	
-	public void run() {
+	public void run() { // run
 		GImage robot = new GImage("robot.jpg", 200, 100);
 		add(robot);
 		GLabel label = new GLabel("How I feel when using github hackslash", 200, 400);
